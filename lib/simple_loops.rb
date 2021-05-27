@@ -7,7 +7,9 @@ end
 loop_message_five_times ("Hello World!")
 
 def loop_message_n_times (num, string)
-  num.to_int 
+  a = num.to_int
+  a.times do
+    puts string
   end
 end
 loop_message_n_times 5, "Hello Moon."
