@@ -6,12 +6,22 @@ def loop_message_five_times (string)
 end
 loop_message_five_times ("Hello World!")
 
-def loop_message_n_times (num, string)
+
+
+
+
+
+def loop_message_n_times (string, num)
     num.to_i.times do
     puts string
   end
 end
-loop_message_n_times 5, "Hello Moon."
+loop_message_n_times "Hello Moon.", 5
+
+
+
+
+
 
 
 
